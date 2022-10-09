@@ -1,4 +1,4 @@
-pragma solidity >=0.5.0 <0.8.1;
+pragma solidity ^0.5.0;
 
 interface IEventLog {
  event Logs(address _sender); // Event
