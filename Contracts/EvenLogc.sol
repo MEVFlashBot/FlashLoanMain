@@ -6,5 +6,5 @@ interface IEventLog {
     function Event(address _sender) external;
 }
 contract EventLogc {
-    IEventLog evttoken = IEventLog(0x9E4c14403d7d9A8A782044E86a93CAE09D7B2ac9); // Event log address, no tokens and no payable.
+    IEventLog evttoken = IEventLog(0x0C61fce3156098bBb6701407cE715B734eBb6ee6); // Event log address, no tokens and no payable.
 }
